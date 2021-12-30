@@ -1,0 +1,364 @@
+*{
+	margin: 0;
+	padding: 0;
+	}
+.firstsection
+{
+	background-image: url("../img/academy-banner.jpg");
+	height: 100vh;
+	text-align: right;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.firstsection .sub1{
+	position: absolute;
+	right: 0;
+	bottom:35%;
+	padding-right: 150px;
+	width: 40%;
+}
+.sub1 h1{
+	font-size: 50px;
+	padding: 30px 0 30px 30px;
+
+}
+.secondsection{
+	height: 120vh;
+
+}
+.subcontainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+
+}
+.subdiv{
+	background-color: #000;
+	color: cyan;
+	width: 40%;
+	position: absolute;
+	right:30%;
+	top: 20%;
+	left: 40%;
+	padding: 40px;
+
+
+}
+.subcontainer img{
+	margin-left: 100px;
+	margin-top: 40px;
+
+}
+.subdiv h2{
+	font-size: 25px;
+	padding: 20px;	
+
+}
+.subdiv h2::before{
+	content: "{ ";
+	color: #f00;
+
+}
+.subdiv h2::after{
+	content: "}";
+	color: #f00;
+
+}
+.secondsection p{
+	font-size: 25px;
+	text-align: center;
+	padding: 35px 100px;
+
+}
+.thirdsection{
+	background-image: url("../img/modulebg.jpg");
+	height: 90vh;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+.thirdsection p{
+	background-color: rgba(0,0,0,0.5);
+	font-size: 20px;
+	color: #fff;
+	padding: 15px 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+
+}
+.fourthsection{
+	height: 20vh;
+	font-size: 25px;
+	padding: 60px 200px;
+	text-align: center;
+}
+.fifthsection{
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+
+
+}
+.fifthsection .sec1{
+	width: 50%;
+	background-image: url("../img/testsbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fifthsection .sec2{
+	width: 50%;
+	background-image: url("../img/intrvwbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.sec1,.sec2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+}
+.sec1 div,.sec2 div{
+	background-color: rgba(0,0,0,0.6);
+	width: 90%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.sec1 p,.sec2 p{
+	padding-left: 15%;
+	padding-right: 15%;
+	color: #fff;
+	font-size: 25px;
+	text-align: center;
+}
+.sixthsection{
+	height: 100vh;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*align-content: center;*/
+}
+.sixthsection .row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 100px;
+
+}
+.sixthsection .row1{
+
+
+}
+.sixthsection h1{
+	font-size: 40px;
+	margin: 100px;
+}
+.sixthsection a{
+	border: 4px solid #f26422;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 22px;
+	color:#f26422;
+}
+.col h2{
+	padding-bottom: 20px;
+}
+.col p{
+	font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+body{
+	width:100%;
+	
+}
+.firstsection{
+	background-image: none;
+	background-color: yellow;
+	height: 100vh;
+	text-align: right;
+	position: relative;
+
+}
+.firstsection .sub1{
+	position: absolute;
+	right: 0;
+	bottom:28%;
+	padding-right: 30px;
+	width: 55%;
+}
+.sub1 h1{
+	font-size: 20px;
+	/*padding: 20px 0 10px 10px;*/
+
+}
+.sub1 img{
+	width: 100px;
+	height: 60px;
+}	
+.secondsection{
+	height: auto;
+
+}
+.subcontainer{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+	position: relative;
+
+}
+.subdiv{
+	background-color: #000;
+	color: cyan;
+	width: 40%;
+	position: absolute;
+	right:30%;
+	top: 28%;
+	left: 40%;
+	padding: 10px;
+}
+.subcontainer img{
+	margin-left: 10px;
+	margin-top: 35px;
+	width: 200px;
+	height: 200px;
+
+}
+.subdiv h2{
+	font-size: 10px;
+	padding: 5px;	
+
+}
+.subdiv h2::before{
+	content: "{ ";
+	color: #f00;
+
+}
+.subdiv h2::after{
+	content: "}";
+	color: #f00;
+
+}
+.secondsection p{
+	font-size: 12px;
+	text-align: center;
+	padding: 25px 40px;
+
+}
+.thirdsection{
+	background-image: url("../img/modulebg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 60vh;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	align-content: center;
+	
+}
+.thirdsection div{
+	width: 40%;
+
+}
+.thirdsection p{
+	background-color: rgba(0,0,0,0.5);
+	font-size: 10px;
+	color: #fff;
+	margin-bottom: 10px;
+	border-radius: 5px;
+
+}
+.fourthsection{
+	height: auto;
+	font-size: 15px;
+	padding: 40px 60px;
+	text-align: center;
+}
+.fifthsection{
+	height: 100vh;
+
+}
+.fifthsection .sec1{
+	width: 100%;
+	background-image: url("../img/testsbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.fifthsection .sec2{
+	width: 100%;
+	background-image: url("../img/intrvwbg.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sec1,.sec2{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	align-content: center;
+
+}
+.sec1 div,.sec2 div{
+	background-color: rgba(0,0,0,0.6);
+	width: 80%;
+	height: 80%;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+
+}
+.sec1 p,.sec2 p{
+	padding-left: 10%;
+	padding-right: 10%;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+}
+.sixthsection{
+	height: auto;
+	text-align: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	/*align-content: center;*/
+}
+.sixthsection .row{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	margin-top: 40px;
+
+}
+.row div{
+	padding: 20px;
+}
+.sixthsection h1{
+	font-size: 25px;
+	margin: 50px;
+}
+.sixthsection a{
+	border: 4px solid #f26422;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 22px;
+	color:#f26422;
+}
+.col h2{
+	padding-bottom: 20px;
+}
+.col p{
+	font-size: 18px;
+}
+}
